@@ -8,7 +8,7 @@ const About = () => {
         <p>ABOUT <span className='text-gray-700 font-medium'>US</span></p>
       </div>
       <div className='my-10 flex flex-col md:flex-row gap-12'>
-        <img className='w-30 h-30 object-cover shadow-md mb-6 md:mb-0' src={assets.about_image} alt="" />
+        <img className='w-full md:max-w-[360px]' src={assets.about_image} alt="" />
         <div className='flex flex-col justify-center gap-6 md:w-2/4 text-sm text-gray-600'>
           <p>Welcome To Prescripto, Your Trusted Partner In Managing Your Healthcare Needs Conveniently And Efficiently. At Prescripto, We Understand The Challenges Individuals Face When It Comes To Scheduling Doctor Appointments And Managing Their Health Records.</p>
           <p>Prescripto Is Committed To Excellence In Healthcare Technology. We Continuously Strive To Enhance Our Platform, Integrating The Latest Advancements To Improve User Experience And Deliver Superior Service. Whether You're Booking Your First Appointment Or Managing Ongoing Care, Prescripto Is Here To Support You Every Step Of The Way.</p>
